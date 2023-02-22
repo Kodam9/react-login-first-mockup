@@ -1,0 +1,115 @@
+:root{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://coolwallpapers.me/picsup/2632224-stars-4k-full-hd-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h2-login{
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+    color: #fff
+}
+.main-container{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    padding: 25px;
+}
+
+.form-inputs{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+
+
+
+.form-inputs ::placeholder{
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+
+.form-inputs input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding: 12px;
+    margin: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.mail-box:focus{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.pass-box:focus{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.remember-me{
+    align-self: baseline;
+    position: relative;
+    left: 8px;
+    color: #fff;
+}
+
+.check-box{
+    vertical-align: middle;
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+
+
+}
+
+.login-button{
+    width: 80%;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.register-button{
+    width: 50%;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.form-buttons button:hover{
+    box-shadow: 0px 0px 10px #000;
+}
+
+.form-buttons button:active{
+    border: 2px solid #909090;
+}
+
